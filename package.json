@@ -1,0 +1,9 @@
+{
+  "name": "app-alineamiento-final",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Unified Biological Sequence Alignment Web App",
+  "scripts": {
+    "test": "node tests/engine.spec.js && node tests/state.spec.js && node tests/ui-redesign.spec.js && node tests/blosum.spec.js && node tests/validacion.spec.js && node tests/oraculo/oraculo.spec.cjs"
+  }
+}
